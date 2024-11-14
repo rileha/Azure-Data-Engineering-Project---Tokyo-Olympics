@@ -1,0 +1,17 @@
+{
+	"name": "fact_olympic_sqldb_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlDB_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "",
+			"table": "fact_olympic"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

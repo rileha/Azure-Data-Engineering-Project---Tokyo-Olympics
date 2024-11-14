@@ -1,0 +1,50 @@
+{
+	"name": "gender_sqldb_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldb_source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "dim_gender.csv",
+				"folderPath": "transformed/dim_entriesgender",
+				"fileSystem": "tokyo-olympic-data"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Discipline",
+				"type": "String"
+			},
+			{
+				"name": "Female",
+				"type": "String"
+			},
+			{
+				"name": "Male",
+				"type": "String"
+			},
+			{
+				"name": "avg_female",
+				"type": "String"
+			},
+			{
+				"name": "avg_male",
+				"type": "String"
+			},
+			{
+				"name": "gender_diff",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

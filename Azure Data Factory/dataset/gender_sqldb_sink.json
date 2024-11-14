@@ -1,0 +1,17 @@
+{
+	"name": "gender_sqldb_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlDB_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "",
+			"table": "dim_gender"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
