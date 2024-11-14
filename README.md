@@ -1,5 +1,7 @@
 # Azure Data Engineering Project Tokyo Olympics
 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Flogowik.com%2F2020-logo-vector-1-33028.html&psig=AOvVaw1LbvjGH35zJtpNuuVQwpz9&ust=1731690217076000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJD74fam3IkDFQAAAAAdAAAAABAE![image](https://github.com/user-attachments/assets/209464e5-b7cb-4e55-8900-12f71f680caf)
+
 # Overview
 
 This project focuses on building an end-to-end data engineering pipeline for data related to the Tokyo Olympic Games, using Data Lake Gen2, Data Factory, Databricks & Synapse Analytics within Azure.
