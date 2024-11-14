@@ -1,6 +1,7 @@
 # Azure Data Engineering Project Tokyo Olympics
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Flogowik.com%2F2020-logo-vector-1-33028.html&psig=AOvVaw1LbvjGH35zJtpNuuVQwpz9&ust=1731690217076000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJD74fam3IkDFQAAAAAdAAAAABAE![image](https://github.com/user-attachments/assets/209464e5-b7cb-4e55-8900-12f71f680caf)
+![Tokyo Logo](https://github.com/user-attachments/assets/ab55867b-ec28-416c-9d0d-9f147286f542)
+
 
 # Overview
 
