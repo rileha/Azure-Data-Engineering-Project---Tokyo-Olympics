@@ -5,9 +5,9 @@
 
 # Overview
 
-This project focuses on building an end-to-end data engineering pipeline for data related to the Tokyo Olympic Games, using Data Lake Gen2, Data Factory, Databricks & Synapse Analytics within Azure.
+This project focuses on building an end-to-end data engineering pipeline for data related to the Tokyo Olympic Games, using Data Lake Gen2, Data Factory, Databricks & SQL Database within Azure.
 
-The pipeline ingests data, transforms and analyses displaying the data in a PowerBI report for data-driven insights into the Olympic Games event.
+The pipeline ingests data, transforms and analyses, displaying the data in a PowerBI report for data-driven insights into the Olympic Games event.
 
 # Tech Stack
 
@@ -29,9 +29,9 @@ Pipeline: Using Azure Data Factory (ADF), raw data is extracted and ingested int
 
 # 2. Data Preparation and Transformation
 
-Mounting & Loading: Databricks is mounted to the ADLS raw container, enabling seamless access to ingested data.
+Mounting & Loading: Databricks is mounted to the ADLS raw container, enabling access to ingested data.
 
-Cleaning & Structuring: Data types are standardized, and the data is cleaned to create optimized fact and dimension tables, ensuring consistent data quality.
+Cleaning & Structuring: Data types are standardized and the data is cleaned to create optimized fact and dimension tables, ensuring consistent data quality.
 
 Storage: The transformed data is saved into an ADLS "transformed" container, preparing it for advanced analytics.
 
@@ -49,7 +49,9 @@ Storage Optimization: The Azure SQL Database is structured to support efficient 
 
 Connecting to Power BI: The SQL Database is connected to Power BI, where views are created, and data is imported to build an interactive dashboard.
 
+Dashboard Insights: The Power BI dashboard delivers key insights, such as athlete and team performance, medal tallies, and demographic breakdowns, empowering stakeholders with data-driven visibility into the Olympic Games.
+
 <img width="1557" alt="4  Power BI Dashboard" src="https://github.com/user-attachments/assets/7ec4742b-33b7-469c-a013-e57847bec577">
 
 
-Dashboard Insights: The Power BI dashboard delivers key insights, such as athlete and team performance, medal tallies, and demographic breakdowns, empowering stakeholders with data-driven visibility into the Olympic Games.
+
