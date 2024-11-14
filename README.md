@@ -1,12 +1,12 @@
 # Azure Data Engineering Project Tokyo Olympics
 
-Overview
+# Overview
 
 This project focuses on building an end-to-end data engineering pipeline for data related to the Tokyo Olympic Games, using Data Lake Gen2, Data Factory, Databricks & Synapse Analytics within Azure.
 
 The pipeline ingests data, transforms and analyses displaying the data in a PowerBI report for data-driven insights into the Olympic Games event.
 
-Tech Stack
+# Tech Stack
 
 Azure Data Lake Gen2
 Azure Data Factory
@@ -14,7 +14,7 @@ Azure Databricks
 SQL Database
 Power BI
 
-Project Workflow
+# Project Workflow
 
 Data Ingestion
 
