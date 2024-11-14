@@ -32,9 +32,9 @@ Storage: The transformed data is saved into an ADLS "transformed" container, pre
 
 # 3. Data Warehousing
 
-Transfer: Using ADF, the transformed data is moved from ADLS to a SQL Database within Azure Synapse Analytics.
+Transfer: Using Azure Data Factory (ADF), the transformed data is moved from Azure Data Lake Storage (ADLS) to an Azure SQL Database, preparing it for analytics and reporting.
 
-Storage Optimization: The SQL Database structure allows for efficient query performance, supporting complex analytics and scalable reporting.
+Storage Optimization: The Azure SQL Database is structured to support efficient query performance, making it suitable for complex analytics and scalable reporting.
 
 # 4. Visualization & Reporting
 
