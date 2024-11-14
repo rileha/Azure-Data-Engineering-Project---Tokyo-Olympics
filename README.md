@@ -11,11 +11,11 @@ The pipeline ingests data, transforms and analyses, displaying the data in a Pow
 
 # Tech Stack
 
-Azure Data Lake Gen2
-Azure Data Factory
-Azure Databricks
-SQL Database
-Power BI
+- Azure Data Lake Gen2
+- Azure Data Factory
+- Azure Databricks
+- SQL Database
+- Power BI
 
 # Project Workflow
 
